@@ -1,0 +1,6 @@
+C:\Git\daily-programmer\C-Sharp\C-Sharp\bin\Debug\C-Sharp.exe.config
+C:\Git\daily-programmer\C-Sharp\C-Sharp\bin\Debug\C-Sharp.exe
+C:\Git\daily-programmer\C-Sharp\C-Sharp\bin\Debug\C-Sharp.pdb
+C:\Git\daily-programmer\C-Sharp\C-Sharp\obj\Debug\C-Sharp.csprojResolveAssemblyReference.cache
+C:\Git\daily-programmer\C-Sharp\C-Sharp\obj\Debug\C-Sharp.exe
+C:\Git\daily-programmer\C-Sharp\C-Sharp\obj\Debug\C-Sharp.pdb
