@@ -1,9 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/* This daily challenge accepts a name, age, and username for reddit. Once given it displays the information back to the user and writes the information to a file locally.
+ * 
+ * 
+ * 
+ */
+
+using System;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace C_Sharp.easy
 {
