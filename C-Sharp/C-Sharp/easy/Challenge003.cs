@@ -15,6 +15,18 @@ namespace C_Sharp.easy
 {
     class Challenge003
     {
+        public char[] alphabet =
+        {
+            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
+            'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+            'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+        };
+
+        public char[] symbols =
+        {
+            '~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '\\', '|', '[', ']', '{', '}', ';', ':', '"', '\'', '/', '?', '.', '>', ',', '<'
+        };
+
         public void RunProg()
         {
             Console.WriteLine("Welcome to the cypher program. Do you wish to encrypt or decrypt a message?");
@@ -28,7 +40,7 @@ namespace C_Sharp.easy
                 case "decrypt":
                     CaesarDecrypt();
                     break;
-                case default:
+                default:
                     Console.WriteLine("That is not a valid option. Enter encrypt to encrypt a message or decrypt to decrypt a message.");
                     break;
             }
@@ -42,6 +54,17 @@ namespace C_Sharp.easy
         public void CaesarDecrypt()
         {
             
+        }
+
+        public void Engine()
+        {
+            Console.WriteLine("What is the text that you want to encrypt?");
+            string text = Console.ReadLine();
+
+        }
+        public void Print()
+        {
+            Console.WriteLine(text);
         }
     }
 }
