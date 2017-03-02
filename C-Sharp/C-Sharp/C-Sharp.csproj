@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="easy\Challenge002.cs" />
+    <Compile Include="easy\Challenge003.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="easy\Challenge001.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
