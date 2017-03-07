@@ -15,10 +15,15 @@ namespace C_Sharp.easy
 {
     class Challenge003
     {
-        public char[] alphabet =
+        public char[] lowerAlphabet =
         {
             'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
-            'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+            'w', 'x', 'y', 'z'
+        };
+
+        public char[] upperAlphabet =
+        {
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
             'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
         };
 
@@ -27,6 +32,7 @@ namespace C_Sharp.easy
             '~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '\\', '|', '[', ']', '{', '}', ';', ':', '"', '\'', '/', '?', '.', '>', ',', '<'
         };
 
+        public string text;
         public void RunProg()
         {
             Console.WriteLine("Welcome to the cypher program. Do you wish to encrypt or decrypt a message?");
@@ -48,20 +54,18 @@ namespace C_Sharp.easy
 
         public void CaesarEncrypt()
         {
-            
+            Console.WriteLine("What is the text that you want to encrypt?");
+            text = Console.ReadLine();
+
         }
 
         public void CaesarDecrypt()
         {
-            
-        }
-
-        public void Engine()
-        {
-            Console.WriteLine("What is the text that you want to encrypt?");
-            string text = Console.ReadLine();
+            Console.WriteLine("What is the text that you want to decrypt?");
+            text = Console.ReadLine();
 
         }
+
         public void Print()
         {
             Console.WriteLine(text);
